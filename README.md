@@ -3,9 +3,10 @@
 Exercice avec react
 Ici sans appel API
 
-## Objectif
+## Rendu final
 
-![](resultat.gif)
+![](close.png)
+![](open.png)
 
 
 # installe les dépendances du projet
@@ -14,7 +15,7 @@ yarn
 # lance le serveur de developpement
 yarn start 
 
-# rdv sur http://localhost:8080/
+rdv sur http://localhost:8080/
 
 # build de production : les fichiers sont rassemblés *et optimisés*
 yarn build
