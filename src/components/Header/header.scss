@@ -1,0 +1,33 @@
+@import 'src/styles/vars';
+
+.header {
+    background-color: $mainColor;
+    color: $lightColor;
+    padding: $gutter * 2;
+    border-radius: $radius $radius 0 0;
+
+  .header-title {
+    font-weight: $fwBold;
+    font-size: 2em;
+  }
+
+  .header-amount {
+    margin-top: $gutter;
+    font-weight: $fwBold;
+  }
+
+  .header-input {
+    background-color: $lightColor;
+    margin-top: $gutter;
+    font-size: 1rem;
+    font-weight: $fwBold;
+    height: 2rem;
+    padding-left: 1rem;
+    &:focus{
+      //border: 2px solid whitesmoke;
+      animation: Pulse 1.5s infinite ease-in-out;
+    }
+
+
+  }
+}

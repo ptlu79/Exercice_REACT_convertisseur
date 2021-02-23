@@ -1,0 +1,28 @@
+$font: 'Spartan', sans-serif;
+
+$mainColor: #4a47a3;
+$altColor: #709fb0;
+$lightColor: #a7c5eb;
+
+$fwLight: 300;
+$fwMedium: 500;
+$fwBold: 700;
+
+$transitionFast: 0.2s;
+$transitionSlow: 1s;
+
+$gutter: 0.8rem;
+
+$radius: 70px;
+
+@keyframes Pulse {
+  0%{
+    box-shadow: 0 0 12px rgba(51,204,255,0.2);
+  }
+  50%{
+    box-shadow: 0 0 12px rgba(51,204,255,0.9);
+  }
+  100%{
+    box-shadow: 0 0 12px rgba(51,204,255,0.2);
+  }
+}

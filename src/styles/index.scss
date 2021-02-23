@@ -1,0 +1,10 @@
+@import 'reset';
+@import 'vars';
+
+body {
+  font-family: $font;
+  font-weight: $fwLight;
+  background-color: $altColor;
+  color: $mainColor;
+}
+

@@ -1,0 +1,10 @@
+@import 'src/styles/vars';
+
+.app {
+  width: 350px;
+  border-radius: $radius;
+  margin: 1em auto;
+  text-align: center;
+  background-color: $mainColor;
+  border: 5px $lightColor solid;
+}
